@@ -1,9 +1,9 @@
-import { FaClock, FaCode, FaPiggyBank, FaCheckCircle } from 'react-icons/fa'
+import { FaClock, FaCode, FaDollarSign, FaCheckCircle } from 'react-icons/fa'
 import React from "react";
 const WhyUs = () => {
   const benefits = [
     {
-      icon: <FaPiggyBank className="text-4xl text-primary" />,
+      icon: <FaDollarSign className="text-4xl text-primary" />,
       title: "Cost-Effective",
       description: "Competitive rates that help you maintain profitability on smaller projects"
     },
